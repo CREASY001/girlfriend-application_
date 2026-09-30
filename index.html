@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Girlfriend Application Form - 2026</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Montserrat:wght@400;500;600;700&family=Great+Vibes&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Montserrat', sans-serif; user-select: none; }
+        .font-official { font-family: 'Cinzel', serif; }
+        .font-cursive { font-family: 'Great Vibes', cursive; }
+    </style>
+</head>
+<body class="bg-slate-950 text-slate-100 min-h-screen pb-24 relative select-none">
+
+    <!-- Header Banner -->
+    <header class="bg-slate-900 border-b border-rose-500/30 py-6 px-4 text-center shadow-lg">
+        <div class="max-w-4xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
+            <div class="flex items-center space-x-3">
+                <div class="w-12 h-12 bg-rose-600 rounded-full flex items-center justify-center text-white text-2xl shadow-md">
+                    <i class="fa-solid fa-lock"></i>
+                </div>
+                <div class="text-left">
+                    <h1 class="font-official text-xl font-bold tracking-wider text-rose-400">DEPARTMENT OF HEART & HAPPINESS</h1>
+                    <p class="text-xs text-slate-400">Official Girlfriend Application • Strictly Private & Confidential</p>
+                </div>
+            </div>
+            <span class="bg-rose-500/20 text-rose-300 text-xs px-3 py-1 rounded-full border border-rose-500/40 uppercase tracking-widest font-semibold">
+                Contract: Long-term, renewable indefinitely
+            </span>
+        </div>
+    </header>
+
+    <main class="max-w-4xl mx-auto px-4 mt-8">
+
+        <!-- Form Section -->
+        <div id="formContainer" class="bg-slate-900 border border-slate-800 rounded-2xl p-6 md:p-10 shadow-2xl">
+            
+            <div class="text-center mb-8 border-b border-slate-800 pb-6">
+                <h2 class="text-2xl md:text-3xl font-official font-bold text-white mb-2">GIRLFRIEND APPLICATION FORM - 2026</h2>
+                <p class="text-xs text-rose-400 font-mono uppercase tracking-widest mb-1">Position Applied For: My Girlfriend | Department: My Heart & Happiness</p>
+                <p class="text-xs text-slate-400">Application Fee: R0.00 - but wasting my time will result in immediate rejection.</p>
+            </div>
+
+            <form id="gfForm" action="https://formspree.io/f/moevbykp" method="POST" class="space-y-8">
+                
+                <!-- SECTION 1: PERSONAL INFORMATION -->
+                <div class="bg-slate-950/60 p-5 rounded-xl border border-slate-800">
+                    <h3 class="text-rose-400 font-semibold text-sm uppercase tracking-wider mb-4 border-b border-slate-800 pb-2">
+                        [ ] SECTION 1: PERSONAL INFORMATION
+                    </h3>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+                        <div>
+                            <label class="block text-xs font-semibold text-slate-300 mb-1">Full Name:</label>
+                            <input type="text" id="fullName" name="Full Name" required class="w-full bg-slate-900 border border-slate-700 rounded-lg px-3 py-2 text-sm text-white focus:border-rose-500 outline-none">
+                        </div>
+                        <div>
+                            <label class="block text-xs font-semibold text-slate-300 mb-1">Phone Number:</label>
+                            <input type="tel" name="Phone Number" required class="w-full bg-slate-900 border border-slate-700 rounded-lg px-3 py-2 text-sm text-white focus:border-rose-500 outline-none">
+                        </div>
+                    </div>
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-4">
+                        <div>
+                            <label class="block text-xs font-semibold text-slate-300 mb-1">Age:</label>
+                            <input type="text" name="Age" required class="w-full bg-slate-900 border border-slate-700 rounded-lg px-3 py-2 text-sm text-white focus:border-rose-500 outline-none">
+                        </div>
+                        <div>
+                            <label class="block text-xs font-semibold text-slate-300 mb-1">Where are you from?</label>
+                            <input type="text" name="Location" required class="w-full bg-slate-900 border border-slate-700 rounded-lg px-3 py-2 text-sm text-white focus:border-rose-500 outline-none">
+                        </div>
+                        <div>
+                            <label class="block text-xs font-semibold text-slate-300 mb-1">Occupation:</label>
+                            <input type="text" name="Occupation" required class="w-full bg-slate-900 border border-slate-700 rounded-lg px-3 py-2 text-sm text-white focus:border-rose-500 outline-none">
+                        </div>
+                    </div>
+                    <div class="space-y-4 text-xs">
+                        <div>
+                            <label class="block text-slate-300 mb-1">Relationship status:</label>
+                            <div class="flex flex-wrap gap-4 text-slate-300">
+                                <label><input type="radio" name="Relationship Status" value="Single" required class="mr-1 accent-rose-500"> Single</label>
+                                <label><input type="radio" name="Relationship Status" value="Complicated" class="mr-1 accent-rose-500"> Complicated</label>
+                                <label><input type="radio" name="Relationship Status" value="Basically broken up" class="mr-1 accent-rose-500"> "We're basically broken up"</label>
+                                <label><input type="radio" name="Relationship Status" value="Other" class="mr-1 accent-rose-500"> Other</label>
+                            </div>
+                        </div>
+                        <div>
+                            <label class="block text-slate-300 mb-1">Do you have children?</label>
+                            <div class="flex flex-wrap gap-4 text-slate-300">
+                                <label><input type="radio" name="Has Children" value="No" required class="mr-1 accent-rose-500"> No</label>
+                                <label><input type="radio" name="Has Children" value="Yes" class="mr-1 accent-rose-500"> Yes - How many?</label>
+                                <input type="text" name="How many children" placeholder="Number of kids" class="bg-slate-900 border border-slate-700 rounded px-2 py-1 text-white">
+                            </div>
+                        </div>
+                        <div>
+                            <label class="block text-slate-300 mb-1">Do you currently have a boyfriend/husband/"situationship"?</label>
+                            <div class="flex flex-wrap gap-4 text-slate-300">
+                                <label><input type="radio" name="Current Situationship" value="No" required class="mr-1 accent-rose-500"> No</label>
+                                <label><input type="radio" name="Current Situationship" value="Yes" class="mr-1 accent-rose-500"> Yes</label>
+                                <label><input type="radio" name="Current Situationship" value="Complicated" class="mr-1 accent-rose-500"> It's complicated</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SECTION 2: RELATIONSHIP HISTORY -->
+                <div class="bg-slate-950/60 p-5 rounded-xl border border-slate-800">
+                    <h3 class="text-rose-400 font-semibold text-sm uppercase tracking-wider mb-4 border-b border-slate-800 pb-2">
+                        [ ] SECTION 2: RELATIONSHIP HISTORY
+                    </h3>
+                    <div class="space-y-4 text-xs">
+                        <div>
+                            <label class="block text-slate-300 mb-1">How long was your last relationship?</label>
+                            <input type="text" name="Last Relationship Duration" class="w-full bg-slate-900 border border-slate-700 rounded-lg px-3 py-2 text-white focus:border-rose-500 outline-none">
+                        </div>
+                        <div>
+                            <label class="block text-slate-300 mb-1">Why did it end?</label>
+                            <input type="text" name="Reason for Ending" class="w-full bg-slate-900 border border-slate-700 rounded-lg px-3 py-2 text-white focus:border-rose-500 outline-none">
+                        </div>
+                        <div>
+                            <label class="block text-slate-300 mb-1">Are you completely over your ex?</label>
+                            <div class="flex flex-wrap gap-4 text-slate-300">
+                                <label><input type="radio" name="Over Ex" value="Yes" class="mr-1 accent-rose-500"> Yes</label>
+                                <label><input type="radio" name="Over Ex" value="No" class="mr-1 accent-rose-500"> No</label>
+                                <label><input type="radio" name="Over Ex" value="Checks page sometimes" class="mr-1 accent-rose-500"> I still check their page sometimes</label>
+                            </div>
+                        </div>
+                        <div>
+                            <label class="block text-slate-300 mb-1">Do you still communicate with your ex?</label>
+                            <div class="flex flex-wrap gap-4 text-slate-300 mb-2">
+                                <label><input type="radio" name="Communicates with Ex" value="No" class="mr-1 accent-rose-500"> No</label>
+                                <label><input type="radio" name="Communicates with Ex" value="Yes" class="mr-1 accent-rose-500"> Yes - Explain:</label>
+                            </div>
+                            <input type="text" name="Ex Communication Explanation" placeholder="Explain why..." class="w-full bg-slate-900 border border-slate-700 rounded-lg px-3 py-2 text-white focus:border-rose-500 outline-none">
+                        </div>
+                        <div>
+                            <label class="block text-slate-300 mb-1">What did your previous relationship teach you?</label>
+                            <input type="text" name="Lesson From Ex" class="w-full bg-slate-900 border border-slate-700 rounded-lg px-3 py-2 text-white focus:border-rose-500 outline-none">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SECTION 3: EMOTIONAL INTELLIGENCE -->
+                <div class="bg-slate-950/60 p-5 rounded-xl border border-slate-800">
+                    <h3 class="text-rose-400 font-semibold text-sm uppercase tracking-wider mb-4 border-b border-slate-800 pb-2">
+                        [ ] SECTION 3: EMOTIONAL INTELLIGENCE
+                    </h3>
+                    <div class="space-y-4 text-xs">
+                        <div>
+                            <label class="block text-slate-300 mb-1">When you're angry with your partner, what do you normally do?</label>
+                            <input type="text" name="When Angry" class="w-full bg-slate-900 border border-slate-700 rounded-lg px-3 py-2 text-white focus:border-rose-500 outline-none">
+                        </div>
+                        <div>
+                            <label class="block text-slate-300 mb-1">If your boyfriend tells you that something you did hurt him, what would you do?</label>
+                            <input type="text" name="Hurt Boyfriend Response" class="w-full bg-slate-900 border border-slate-700 rounded-lg px-3 py-2 text-white focus:border-rose-500 outline-none">
+                        </div>
+                        <div>
+                            <label class="block text-slate-300 mb-1">Can you communicate when you're upset instead of disappearing?</label>
+                            <div class="flex flex-wrap gap-4 text-slate-300">
+                                <label><input type="radio" name="Communication When Upset" value="Absolutely" class="mr-1 accent-rose-500"> Absolutely</label>
+                                <label><input type="radio" name="Communication When Upset" value="I need time but communicate" class="mr-1 accent-rose-500"> I need time, but I communicate</label>
+                                <label><input type="radio" name="Communication When Upset" value="I disappear for 3 business days" class="mr-1 accent-rose-500"> I disappear for 3 business days</label>
+                            </div>
+                        </div>
+                        <div>
+                            <label class="block text-slate-300 mb-1">How do you handle disagreements?</label>
+                            <input type="text" name="Disagreements Handling" class="w-full bg-slate-900 border border-slate-700 rounded-lg px-3 py-2 text-white focus:border-rose-500 outline-none">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SECTION 4: COMMUNICATION TEST -->
+                <div class="bg-slate-950/60 p-5 rounded-xl border border-slate-800">
+                    <h3 class="text-rose-400 font-semibold text-sm uppercase tracking-wider mb-4 border-b border-slate-800 pb-2">
+                        [ ] SECTION 4: COMMUNICATION TEST
+                    </h3>
+                    <div class="space-y-4 text-xs">
+                        <div>
+                            <label class="block text-slate-300 mb-1">Your boyfriend sends you a message and you're busy. What do you do?</label>
+                            <div class="flex flex-col gap-2 text-slate-300">
+                                <label><input type="radio" name="Busy Message Response" value="Ignore until free" class="mr-1 accent-rose-500"> Ignore him until I'm free</label>
+                                <label><input type="radio" name="Busy Message Response" value="Tell him busy respond when can" class="mr-1 accent-rose-500"> Tell him I'm busy and respond when I can</label>
+                                <label><input type="radio" name="Busy Message Response" value="Send quick I'm busy text" class="mr-1 accent-rose-500"> Send a quick "I'm busy, I'll text you later"</label>
+                                <label><input type="radio" name="Busy Message Response" value="Depends on mood" class="mr-1 accent-rose-500"> Depends on my mood</label>
+                            </div>
+                        </div>
+                        <div>
+                            <label class="block text-slate-300 mb-1">How often do you like communicating with your partner?</label>
+                            <div class="flex flex-wrap gap-4 text-slate-300">
+                                <label><input type="radio" name="Communication Frequency" value="All day" class="mr-1 accent-rose-500"> All day</label>
+                                <label><input type="radio" name="Communication Frequency" value="Throughout the day" class="mr-1 accent-rose-500"> Throughout the day</label>
+                                <label><input type="radio" name="Communication Frequency" value="Morning & evening" class="mr-1 accent-rose-500"> Morning & evening</label>
+                                <label><input type="radio" name="Communication Frequency" value="Whenever I remember" class="mr-1 accent-rose-500"> Whenever I remember</label>
+                            </div>
+                        </div>
+                        <div>
+                            <label class="block text-slate-300 mb-1">Are you comfortable with phone calls/video calls?</label>
+                            <div class="flex flex-wrap gap-4 text-slate-300">
+                                <label><input type="radio" name="Call Comfort" value="Yes" class="mr-1 accent-rose-500"> Yes</label>
+                                <label><input type="radio" name="Call Comfort" value="No" class="mr-1 accent-rose-500"> No</label>
+                                <label><input type="radio" name="Call Comfort" value="Depends who's calling" class="mr-1 accent-rose-500"> Depends who's calling</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SECTION 5: RED FLAG DISCLOSURE -->
+                <div class="bg-rose-950/20 p-5 rounded-xl border border-rose-900/40">
+                    <h3 class="text-rose-400 font-semibold text-sm uppercase tracking-wider mb-1 border-b border-rose-900/40 pb-2">
+                        [ ] SECTION 5: RED FLAG DISCLOSURE
+                    </h3>
+                    <p class="text-[11px] text-rose-300/80 italic mb-4">Please answer HONESTLY. Lying on this section will result in immediate termination of application.</p>
+                      <div class="space-y-4 text-xs">
+                        <div>
+                            <label class="block text-slate-300 mb-1">Do you cheat?</label>
+                            <div class="flex flex-wrap gap-4 text-slate-300">
+                                <label><input type="radio" name="Do You Cheat" value="No" class="mr-1 accent-rose-500"> No</label>
+                                <label><input type="radio" name="Do You Cheat" value="Sometimes" class="mr-1 accent-rose-500"> Sometimes</label>
+                                <label><input type="radio" name="Do You Cheat" value="Not cheating if..." class="mr-1 accent-rose-500"> I believe "it's not cheating if..."</label>
+                            </div>
+                        </div>
+                        <div>
+                            <label class="block text-slate-300 mb-1">Do you entertain other men while in a relationship?</label>
+                            <div class="flex flex-wrap gap-4 text-slate-300">
+                                <label><input type="radio" name="Entertain Other Men" value="No" class="mr-1 accent-rose-500"> No</label>
+                                <label><input type="radio" name="Entertain Other Men" value="Sometimes" class="mr-1 accent-rose-500"> Sometimes</label>
+                                <label><input type="radio" name="Entertain Other Men" value="I just like attention" class="mr-1 accent-rose-500"> I just like attention</label>
+                            </div>
+                        </div>
+                        <div>
+                            <label class="block text-slate-300 mb-1">Do you flirt with other men?</label>
+                            <div class="flex flex-wrap gap-4 text-slate-300">
+                                <label><input type="radio" name="Flirt With Men" value="No" class="mr-1 accent-rose-500"> No</label>
+                                <label><input type="radio" name="Flirt With Men" value="Yes" class="mr-1 accent-rose-500"> Yes</label>
+                                <label><input type="radio" name="Flirt With Men" value="Only when bored" class="mr-1 accent-rose-500"> Only when I'm bored</label>
+                            </div>
+                        </div>
+                        <div>
+                            <label class="block text-slate-300 mb-1">Do you have anger issues?</label>
+                            <div class="flex flex-wrap gap-4 text-slate-300">
+                                <label><input type="radio" name="Anger Issues" value="No" class="mr-1 accent-rose-500"> No</label>
+                                <label><input type="radio" name="Anger Issues" value="Sometimes" class="mr-1 accent-rose-500"> Sometimes</label>
+                                <label><input type="radio" name="Anger Issues" value="Yes working on it" class="mr-1 accent-rose-500"> Yes - but I'm working on it</label>
+                            </div>
+                        </div>
+                        <div>
+                            <label class="block text-slate-300 mb-1">Do you lie?</label>
+                            <div class="flex flex-wrap gap-4 text-slate-300">
+                                <label><input type="radio" name="Do You Lie" value="Never" class="mr-1 accent-rose-500"> Never</label>
+                                <label><input type="radio" name="Do You Lie" value="Sometimes" class="mr-1 accent-rose-500"> Sometimes</label>
+                                <label><input type="radio" name="Do You Lie" value="Everyone lies" class="mr-1 accent-rose-500"> Everyone lies</label>
+                            </div>
+                        </div>
+                        <div>
+                            <label class="block text-slate-300 mb-1">What is your biggest red flag?</label>
+                            <input type="text" name="Biggest Red Flag" class="w-full bg-slate-900 border border-slate-700 rounded-lg px-3 py-2 text-white focus:border-rose-500 outline-none">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SECTION 6: GIRLFRIEND DUTIES -->
+                <div class="bg-slate-950/60 p-5 rounded-xl border border-slate-800">
+                    <h3 class="text-rose-400 font-semibold text-sm uppercase tracking-wider mb-4 border-b border-slate-800 pb-2">
+                        [ ] SECTION 6: GIRLFRIEND DUTIES
+                    </h3>
+                    <div class="space-y-4 text-xs">
+                        <label class="block text-slate-300 font-semibold mb-2">Rate yourself from 1-10:</label>
+                        <div class="grid grid-cols-2 md:grid-cols-4 gap-3">
+                            <div><label>Communication:</label><input type="number" min="1" max="10" name="Rate Communication" class="w-full bg-slate-900 border border-slate-700 rounded px-2 py-1 text-white"></div>
+                            <div><label>Loyalty:</label><input type="number" min="1" max="10" name="Rate Loyalty" class="w-full bg-slate-900 border border-slate-700 rounded px-2 py-1 text-white"></div>
+                            <div><label>Affection:</label><input type="number" min="1" max="10" name="Rate Affection" class="w-full bg-slate-900 border border-slate-700 rounded px-2 py-1 text-white"></div>
+                            <div><label>Romance:</label><input type="number" min="1" max="10" name="Rate Romance" class="w-full bg-slate-900 border border-slate-700 rounded px-2 py-1 text-white"></div>
+                            <div><label>Patience:</label><input type="number" min="1" max="10" name="Rate Patience" class="w-full bg-slate-900 border border-slate-700 rounded px-2 py-1 text-white"></div>
+                            <div><label>Emotional Support:</label><input type="number" min="1" max="10" name="Rate Emotional Support" class="w-full bg-slate-900 border border-slate-700 rounded px-2 py-1 text-white"></div>
+                            <div><label>Consistency:</label><input type="number" min="1" max="10" name="Rate Consistency" class="w-full bg-slate-900 border border-slate-700 rounded px-2 py-1 text-white"></div>
+                            <div><label>Making BF Laugh:</label><input type="number" min="1" max="10" name="Rate Making Laugh" class="w-full bg-slate-900 border border-slate-700 rounded px-2 py-1 text-white"></div>
+                            <div><label>Planning Dates:</label><input type="number" min="1" max="10" name="Rate Planning Dates" class="w-full bg-slate-900 border border-slate-700 rounded px-2 py-1 text-white"></div>
+                        </div>
+                        <div class="mt-4">
+                            <label class="block text-slate-300 mb-1">What does being a good girlfriend mean to you?</label>
+                            <input type="text" name="Meaning of Good Girlfriend" class="w-full bg-slate-900 border border-slate-700 rounded-lg px-3 py-2 text-white focus:border-rose-500 outline-none">
+                        </div>
+                        <div>
+                            <label class="block text-slate-300 mb-1">What would you do to make your boyfriend feel loved and appreciated?</label>
+                            <input type="text" name="Loved and Appreciated Actions" class="w-full bg-slate-900 border border-slate-700 rounded-lg px-3 py-2 text-white focus:border-rose-500 outline-none">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SECTION 7: FINANCIAL & RESPONSIBILITY CHECK -->
+                <div class="bg-slate-950/60 p-5 rounded-xl border border-slate-800">
+                    <h3 class="text-rose-400 font-semibold text-sm uppercase tracking-wider mb-4 border-b border-slate-800 pb-2">
+                        [ ] SECTION 7: FINANCIAL & RESPONSIBILITY CHECK
+                    </h3>
+                    <div class="space-y-4 text-xs">
+                        <div>
+                            <label class="block text-slate-300 mb-1">Do you have a job/income?</label>
+                            <div class="flex flex-wrap gap-4 text-slate-300">
+                                <label><input type="radio" name="Has Job Income" value="Yes" class="mr-1 accent-rose-500"> Yes</label>
+                                <label><input type="radio" name="Has Job Income" value="No" class="mr-1 accent-rose-500"> No</label>
+                                <label><input type="radio" name="Has Job Income" value="Currently looking" class="mr-1 accent-rose-500"> Currently looking</label>
+                            </div>
+                        </div>
+                        <div>
+                            <label class="block text-slate-300 mb-1">How do you feel about paying for dates?</label>
+                            <div class="flex flex-wrap gap-4 text-slate-300">
+                                <label><input type="radio" name="Paying For Dates" value="I don't mind" class="mr-1 accent-rose-500"> I don't mind</label>
+                                <label><input type="radio" name="Paying For Dates" value="We can take turns" class="mr-1 accent-rose-500"> We can take turns</label>
+                                <label><input type="radio" name="Paying For Dates" value="50/50 always" class="mr-1 accent-rose-500"> 50/50 always</label>
+                                <label><input type="radio" name="Paying For Dates" value="My boyfriend can pay" class="mr-1 accent-rose-500"> My boyfriend can pay</label>
+                            </div>
+                        </div>
+                        <div>
+                            <label class="block text-slate-300 mb-1">Are you financially responsible?</label>
+                            <div class="flex flex-wrap gap-4 text-slate-300">
+                                <label><input type="radio" name="Financially Responsible" value="Yes" class="mr-1 accent-rose-500"> Yes</label>
+                                <label><input type="radio" name="Financially Responsible" value="Trying my best" class="mr-1 accent-rose-500"> Trying my best</label>
+                                <label><input type="radio" name="Financially Responsible" value="Bank account needs prayer" class="mr-1 accent-rose-500"> My bank account needs prayer</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SECTION 8: LOVE & AFFECTION -->
+                <div class="bg-slate-950/60 p-5 rounded-xl border border-slate-800">
+                    <h3 class="text-rose-400 font-semibold text-sm uppercase tracking-wider mb-4 border-b border-slate-800 pb-2">
+                        [ ] SECTION 8: LOVE & AFFECTION
+                    </h3>
+                    <div class="space-y-4 text-xs">
+                        <div>
+                            <label class="block text-slate-300 mb-1">What is your love language?</label>
+                            <div class="flex flex-wrap gap-4 text-slate-300">
+                                <label><input type="checkbox" name="Love Language" value="Words of affirmation" class="mr-1 accent-rose-500"> Words of affirmation</label>
+                                <label><input type="checkbox" name="Love Language" value="Quality time" class="mr-1 accent-rose-500"> Quality time</label>
+                                <label><input type="checkbox" name="Love Language" value="Physical touch" class="mr-1 accent-rose-500"> Physical touch</label>
+                                <label><input type="checkbox" name="Love Language" value="Acts of service" class="mr-1 accent-rose-500"> Acts of service</label>
+                                <label><input type="checkbox" name="Love Language" value="Gifts" class="mr-1 accent-rose-500"> Gifts</label>
+                                <label><input type="checkbox" name="Love Language" value="All of the above" class="mr-1 accent-rose-500"> All of the above</label>
+                            </div>
+                        </div>
+                        <div>
+                            <label class="block text-slate-300 mb-1">How affectionate are you?</label>
+                            <div class="flex flex-wrap gap-4 text-slate-300">
+                                <label><input type="radio" name="Affection Level" value="Very affectionate" class="mr-1 accent-rose-500"> Very affectionate</label>
+                                <label><input type="radio" name="Affection Level" value="Moderately affectionate" class="mr-1 accent-rose-500"> Moderately affectionate</label>
+                                <label><input type="radio" name="Affection Level" value="I'm shy" class="mr-1 accent-rose-500"> I'm shy</label>
+                                <label><input type="radio" name="Affection Level" value="Please don't touch me" class="mr-1 accent-rose-500"> Please don't touch me</label>
+                            </div>
+                        </div>
+                        <div>
+                            <label class="block text-slate-300 mb-1">Do you like giving your partner reassurance?</label>
+                            <div class="flex flex-wrap gap-4 text-slate-300">
+                                <label><input type="radio" name="Reassurance Preference" value="Yes" class="mr-1 accent-rose-500"> Yes</label>
+                                <label><input type="radio" name="Reassurance Preference" value="No" class="mr-1 accent-rose-500"> No</label>
+                                <label><input type="radio" name="Reassurance Preference" value="Only when necessary" class="mr-1 accent-rose-500"> Only when necessary</label>
+                            </div>
+                        </div>
+                        <div>
+                            <label class="block text-slate-300 mb-1">How would you reassure your boyfriend if he was feeling insecure?</label>
+                            <input type="text" name="Reassuring Insecure Boyfriend" class="w-full bg-slate-900 border border-slate-700 rounded-lg px-3 py-2 text-white focus:border-rose-500 outline-none">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SECTION 9: JEALOUSY & BOUNDARIES -->
+                <div class="bg-slate-950/60 p-5 rounded-xl border border-slate-800">
+                    <h3 class="text-rose-400 font-semibold text-sm uppercase tracking-wider mb-4 border-b border-slate-800 pb-2">
+                        [ ] SECTION 9: JEALOUSY & BOUNDARIES
+                    </h3>
+                    <div class="space-y-4 text-xs">
+                        <div>
+                            <label class="block text-slate-300 mb-1">How jealous are you from 1-10?</label>
+                            <input type="number" min="1" max="10" name="Jealousy Rating" class="w-full bg-slate-900 border border-slate-700 rounded-lg px-3 py-2 text-white focus:border-rose-500 outline-none">
+                        </div>
+                        <div>
+                            <label class="block text-slate-300 mb-1">Would you go through your boyfriend's phone?</label>
+                            <div class="flex flex-wrap gap-4 text-slate-300">
+                                <label><input type="radio" name="Go Through Phone" value="No" class="mr-1 accent-rose-500"> No</label>
+                                <label><input type="radio" name="Go Through Phone" value="If I have a reason" class="mr-1 accent-rose-500"> If I have a reason</label>
+                                <label><input type="radio" name="Go Through Phone" value="Yes I need to know everything" class="mr-1 accent-rose-500"> Yes, I need to know everything</label>
+                            </div>
+                        </div>
+                        <div>
+                            <label class="block text-slate-300 mb-1">Do you believe your boyfriend should have female friends?</label>
+                            <div class="flex flex-wrap gap-4 text-slate-300">
+                                <label><input type="radio" name="Female Friends Allowed" value="Yes" class="mr-1 accent-rose-500"> Yes</label>
+                                <label><input type="radio" name="Female Friends Allowed" value="No" class="mr-1 accent-rose-500"> No</label>
+                                <label><input type="radio" name="Female Friends Allowed" value="Depends on the friendship" class="mr-1 accent-rose-500"> Depends on the friendship</label>
+                            </div>
+                        </div>
+                        <div>
+                            <label class="block text-slate-300 mb-1">What boundaries do you expect in a relationship?</label>
+                            <input type="text" name="Relationship Boundaries" class="w-full bg-slate-900 border border-slate-700 rounded-lg px-3 py-2 text-white focus:border-rose-500 outline-none">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SECTION 10: INTENTIONS -->
+                <div class="bg-slate-950/60 p-5 rounded-xl border border-slate-800">
+                    <h3 class="text-rose-400 font-semibold text-sm uppercase tracking-wider mb-4 border-b border-slate-800 pb-2">
+                        [ ] SECTION 10: INTENTIONS
+                    </h3>
+                    <div class="space-y-4 text-xs">
+                        <div>
+                            <label class="block text-slate-300 mb-1">Why are you applying for this position?</label>
+                            <input type="text" name="Why Applying For Position" class="w-full bg-slate-900 border border-slate-700 rounded-lg px-3 py-2 text-white focus:border-rose-500 outline-none">
+                        </div>
+                        <div>
+                            <label class="block text-slate-300 mb-1">What are you looking for?</label>
+                            <div class="flex flex-wrap gap-4 text-slate-300">
+                                <label><input type="radio" name="Looking For" value="Serious relationship" class="mr-1 accent-rose-500"> Serious relationship</label>
+                                <label><input type="radio" name="Looking For" value="Something casual" class="mr-1 accent-rose-500"> Something casual</label>
+                                <label><input type="radio" name="Looking For" value="Friendship" class="mr-1 accent-rose-500"> Friendship</label>
+                                <label><input type="radio" name="Looking For" value="Marriage eventually" class="mr-1 accent-rose-500"> Marriage eventually</label>
+                                <label><input type="radio" name="Looking For" value="Don't know yet" class="mr-1 accent-rose-500"> I don't know yet</label>
+                                <label><input type="radio" name="Looking For" value="Just think he's cute" class="mr-1 accent-rose-500"> I just think he's cute</label>
+                            </div>
+                        </div>
+                        <div>
+                            <label class="block text-slate-300 mb-1">Where do you see yourself in 2-3 years?</label>
+                            <input type="text" name="Where See Yourself 2-3 Years" class="w-full bg-slate-900 border border-slate-700 rounded-lg px-3 py-2 text-white focus:border-rose-500 outline-none">
+                        </div>
+                        <div>
+                            <label class="block text-slate-300 mb-1">What does commitment mean to you?</label>
+                            <input type="text" name="Meaning of Commitment" class="w-full bg-slate-900 border border-slate-700 rounded-lg px-3 py-2 text-white focus:border-rose-500 outline-none">
+                        </div>
+                        <div>
+                            <label class="block text-slate-300 mb-1">Are you willing to be loyal, honest, consistent and intentional?</label>
+                            <div class="flex flex-wrap gap-4 text-slate-300">
+                                <label><input type="radio" name="Willing To Be Loyal" value="Yes" class="mr-1 accent-rose-500"> Yes</label>
+                                <label><input type="radio" name="Willing To Be Loyal" value="No" class="mr-1 accent-rose-500"> No</label>
+                                <label><input type="radio" name="Willing To Be Loyal" value="Need to think about it" class="mr-1 accent-rose-500"> I need to think about it</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                  <!-- FINAL INTERVIEW & ESSAY QUESTIONS -->
+                <div class="bg-slate-950/60 p-5 rounded-xl border border-slate-800">
+                    <h3 class="text-rose-400 font-semibold text-sm uppercase tracking-wider mb-4 border-b border-slate-800 pb-2">
+                        [ ] FINAL INTERVIEW & ESSAY QUESTIONS
+                    </h3>
+                    <div class="space-y-4 text-xs">
+                        <div>
+                            <label class="block text-slate-300 mb-1">1. Why should I choose you over the other applicants?</label>
+                            <textarea name="Choose You Over Applicants" rows="2" class="w-full bg-slate-900 border border-slate-700 rounded-lg px-3 py-2 text-white focus:border-rose-500 outline-none"></textarea>
+                        </div>
+                        <div>
+                            <label class="block text-slate-300 mb-1">2. What is one thing you can promise me as my girlfriend?</label>
+                            <textarea name="One Thing Promise GF" rows="2" class="w-full bg-slate-900 border border-slate-700 rounded-lg px-3 py-2 text-white focus:border-rose-500 outline-none"></textarea>
+                        </div>
+                        <div>
+                            <label class="block text-slate-300 mb-1">3. What is something you would NEVER do to your boyfriend?</label>
+                            <textarea name="Never Do To Boyfriend" rows="2" class="w-full bg-slate-900 border border-slate-700 rounded-lg px-3 py-2 text-white focus:border-rose-500 outline-none"></textarea>
+                        </div>
+                        <div>
+                            <label class="block text-slate-300 mb-1">4. What is your idea of a perfect date?</label>
+                            <textarea name="Idea Perfect Date" rows="2" class="w-full bg-slate-900 border border-slate-700 rounded-lg px-3 py-2 text-white focus:border-rose-500 outline-none"></textarea>
+                        </div>
+                        <div>
+                            <label class="block text-slate-300 mb-1">5. If we had an argument, what would you do before going to sleep?</label>
+                            <textarea name="Before Sleep Argument Action" rows="2" class="w-full bg-slate-900 border border-slate-700 rounded-lg px-3 py-2 text-white focus:border-rose-500 outline-none"></textarea>
+                        </div>
+                        <div>
+                            <label class="block text-slate-300 mb-1">6. If I'm having a terrible day, how would you make it better?</label>
+                            <textarea name="Make Terrible Day Better" rows="2" class="w-full bg-slate-900 border border-slate-700 rounded-lg px-3 py-2 text-white focus:border-rose-500 outline-none"></textarea>
+                        </div>
+                        <div>
+                            <label class="block text-slate-300 mb-1">7. What are your intentions with me specifically?</label>
+                            <textarea name="Specific Intentions With Me" rows="2" class="w-full bg-slate-900 border border-slate-700 rounded-lg px-3 py-2 text-white focus:border-rose-500 outline-none"></textarea>
+                        </div>
+                        <div>
+                            <label class="block text-slate-300 mb-1">8. Tell me one thing about yourself that I should know before considering your application.</label>
+                            <textarea name="One Thing Know Before Application" rows="2" class="w-full bg-slate-900 border border-slate-700 rounded-lg px-3 py-2 text-white focus:border-rose-500 outline-none"></textarea>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SECTION 11: ACCOUNTABILITY TEST -->
+                <div class="bg-slate-950/60 p-5 rounded-xl border border-slate-800">
+                    <h3 class="text-rose-400 font-semibold text-sm uppercase tracking-wider mb-4 border-b border-slate-800 pb-2">
+                        [ ] SECTION 11: ACCOUNTABILITY TEST
+                    </h3>
+                    <div class="space-y-4 text-xs">
+                        <div>
+                            <label class="block text-slate-300 mb-1">Can you apologise without immediately following it with "but you..."?</label>
+                            <div class="flex flex-wrap gap-4 text-slate-300">
+                                <label><input type="radio" name="Apologise Without But You" value="Yes" class="mr-1 accent-rose-500"> Yes</label>
+                                <label><input type="radio" name="Apologise Without But You" value="No" class="mr-1 accent-rose-500"> No</label>
+                                <label><input type="radio" name="Apologise Without But You" value="I already feel attacked" class="mr-1 accent-rose-500"> I already feel attacked</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SECTION 12: INITIATIVE TEST -->
+                <div class="bg-slate-950/60 p-5 rounded-xl border border-slate-800">
+                    <h3 class="text-rose-400 font-semibold text-sm uppercase tracking-wider mb-4 border-b border-slate-800 pb-2">
+                        [ ] SECTION 12: INITIATIVE TEST
+                    </h3>
+                    <div class="space-y-4 text-xs">
+                        <div>
+                            <label class="block text-slate-300 mb-1">"Plan a date" means:</label>
+                            <div class="flex flex-col gap-2 text-slate-300">
+                                <label><input type="radio" name="Plan A Date Meaning" value="Book something I know he'll love" class="mr-1 accent-rose-500"> Book something I know he'll love</label>
+                                <label><input type="radio" name="Plan A Date Meaning" value="Ask him 14 questions until he plans it himself" class="mr-1 accent-rose-500"> Ask him 14 questions until he plans it himself</label>
+                                <label><input type="radio" name="Plan A Date Meaning" value="Say I'm easy whatever you want" class="mr-1 accent-rose-500"> Say "I'm easy, whatever you want"</label>
+                            </div>
+                        </div>
+                    </div>
+  </div>
+   <!-- PROBATION NOTICE -->
+                <div class="text-center p-4 bg-slate-950 rounded-xl border border-slate-800 text-xs text-slate-400 italic">
+                    <p class="font-semibold text-rose-400 uppercase tracking-widest not-italic mb-1">[ ] PROBATION PERIOD</p>
+                    Good morning texts alone do not constitute satisfactory performance. By submitting below, you confirm that all information provided is truthful.
+                </div>
+
+                <!-- SUBMIT BUTTON -->
+                <button type="submit" id="submitBtn" class="w-full bg-gradient-to-r from-rose-500 to-pink-600 hover:from-rose-600 hover:to-pink-700 text-white font-bold py-4 px-6 rounded-xl shadow-xl transition-all transform hover:-translate-y-0.5 active:translate-y-0 flex items-center justify-center gap-2 text-base cursor-pointer">
+                    <i class="fa-solid fa-paper-plane"></i> SUBMIT APPLICATION
+                </button>
+            </form>
+        </div>
+
+        <!-- OFFICIAL SELECTION NOTICE DISPLAY -->
+        <div id="noticeContainer" class="hidden">
+            
+            <div class="mb-6 flex justify-start items-center bg-slate-900 p-4 rounded-xl border border-slate-800">
+                <button onclick="goBack()" class="text-xs text-slate-300 hover:text-white flex items-center gap-2">
+                    <i class="fa-solid fa-arrow-left"></i> Edit Answers
+                </button>
+            </div>
+
+            <!-- OFFICIAL LETTERHEAD -->
+            <div class="bg-slate-900 text-slate-100 p-8 md:p-12 rounded-2xl border border-rose-500/30 shadow-2xl relative overflow-hidden">
+                <div class="border border-slate-800 p-6 md:p-10 text-left relative bg-slate-950/60 rounded-xl">
+                    
+                    <!-- Letterhead Header -->
+                    <div class="border-b border-slate-800 pb-6 mb-6 flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
+                        <div>
+                            <span class="inline-block bg-rose-500/20 text-rose-400 font-mono text-[10px] px-3 py-1 rounded-full border border-rose-500/30 uppercase tracking-widest mb-2 font-semibold">
+                                STATUS: SHORTLISTED FOR INTERVIEW
+                            </span>
+                            <h1 class="font-official text-xl md:text-2xl font-bold tracking-wider text-rose-400">OFFICIAL SELECTION NOTICE</h1>
+                            <p class="text-xs text-slate-400 mt-0.5">Department of Heart & Happiness • Screening Division</p>
+                        </div>
+                        <div class="text-right">
+                            <p class="text-xs font-mono text-slate-400" id="noticeDate">Date Issued: Oct 01, 2026</p>
+                            <p class="text-[10px] text-emerald-400 font-mono mt-1"><i class="fa-solid fa-circle-check"></i> Form Transmitted & Verified</p>
+                        </div>
+                    </div>
+
+                    <!-- Main Message Body -->
+                    <div class="space-y-4 text-slate-300 text-sm leading-relaxed">
+                        <p class="text-base font-semibold text-white">
+                            Congratulations, <span id="candidateName" class="text-rose-400 font-bold">Candidate</span>!
+                        </p>
+
+                        <p>
+                            We are pleased to inform you that your initial responses have passed preliminary review. Out of numerous applicants, you have officially been <strong class="text-white">SELECTED</strong> to advance to the final interview stage of the Girlfriend Selection Process.
+                        </p>
+
+                        <p>
+                            Your answers demonstrated high potential, exceptional emotional intelligence, and commendable loyalty standards. However, competition remains strict, and final evaluation requires a one-on-one interactive assessment.
+                        </p>
+
+                        <div class="bg-slate-900 border-l-4 border-rose-500 p-4 rounded-r-lg my-6 text-xs text-slate-300 space-y-1">
+                            <p class="font-bold text-rose-400 uppercase tracking-wider mb-1">Next Steps & Instructions:</p>
+                            <p>• Prepare yourself for the physical/voice interview stage.</p>
+                            <p>• Our recruitment team will reach out to you directly via the phone number provided.</p>
+                            <p>• Keep your communication channels open and stay attentive.</p>
+                        </div>
+
+                        <p>
+                            Thank you for your patience and willingness to take part in this evaluation. We look forward to speaking with you very soon.
+                        </p>
+                    </div>
+
+                    <!-- Sign-off -->
+                    <div class="mt-10 pt-6 border-t border-slate-800 flex flex-col md:flex-row justify-between items-start md:items-end gap-6">
+                        <div>
+                            <p class="text-xs text-slate-400 uppercase tracking-wider mb-1">Approved & Issued By</p>
+                            <p class="font-bold text-white text-base">Head of Selection Division</p>
+                            <p class="text-xs text-rose-400 font-semibold mt-0.5">Instagram @root_403</p>
+                        </div>
+
+                        <div class="w-16 h-16 bg-rose-950/40 border border-rose-500/40 rounded-full flex flex-col items-center justify-center text-rose-400 font-official text-[8px] text-center font-bold p-1 shadow-lg transform rotate-6">
+                            <i class="fa-solid fa-stamp text-sm mb-0.5"></i>
+                            <span>APPROVED</span>
+                            <span>INTERVIEW</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- FIXED WATERMARK FOOTER -->
+    <footer class="fixed bottom-0 left-0 right-0 bg-slate-900/95 backdrop-blur-md border-t border-slate-800 py-2 px-4 text-center z-50">
+        <p class="text-[10px] md:text-xs text-slate-400 font-mono tracking-widest uppercase">
+            🔒 CONFIDENTIAL & PRIVATE WORK • FORMS BY <span class="text-rose-400 font-bold">Instagram @root_403</span> • ALL RIGHTS RESERVED
+        </p>
+    </footer>
+
+    <script>
+        document.getElementById('gfForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+
+            // Set Candidate Name & Date
+            const name = document.getElementById('fullName').value || "Applicant";
+            document.getElementById('candidateName').innerText = name;
+
+            const today = new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
+            document.getElementById('noticeDate').innerText = "Date Issued: " + today;
+
+            // Submit answers silently to Formspree
+            const formData = new FormData(this);
+            fetch(this.action, {
+                method: 'POST',
+                body: formData,
+                headers: { 'Accept': 'application/json' }
+            }).catch(err => console.log('Submitted locally'));
+
+            // Show Selection Notice
+            document.getElementById('formContainer').classList.add('hidden');
+            document.getElementById('noticeContainer').classList.remove('hidden');
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+
+        function goBack() {
+            document.getElementById('noticeContainer').classList.add('hidden');
+            document.getElementById('formContainer').classList.remove('hidden');
+        }
+    </script>
+    </body>
+</html>
